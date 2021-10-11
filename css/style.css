@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 180px;
+    background-color: rgb(77, 160, 254);
+    background-image:url('../img/pattern.png');
+    position: relative;
+}
+
+.logo {
+   height: 90px; 
+   position: absolute;
+   transform: translate(3%,80%);
+}

@@ -3,10 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
+.body {
+    background-color: black;
+}
+/* contenitore  */
+.container {
     width: 1312px;
     margin: auto;
+    background-color: white;
 }
+/* intestazione */
 header {
     height: 180px;
     background-color: rgb(77, 160, 254);
@@ -15,12 +21,14 @@ header {
     margin-bottom: 20px;
 }
 
+/* logo */
 .logo {
    height: 90px; 
    position: absolute;
    transform: translate(3%,80%);
 }
 
+/* parte autori */
 .autore-grigio {  
     color: grey;
     font-size: 20px;
@@ -37,37 +45,68 @@ header {
     font-size: 15px;
     margin-bottom: 20px;
 }
+/* fine parte autori  */
 
+/* descrizione seconda immagine distanziata dal paragrafo successivo */
 .second-img {
     margin-bottom: 20px;
 }
 
+/* testo evidenziato */
 .text-highlighted {
     background-color: yellow;
 }
 
+/* elenco */
 .elenco {
     margin-top: 20px;
     margin-left: 20px;
 }
 
+/* tabella */
 .tabella {
     margin-top: 20px;
     width: 100%;
     text-align: left;
     border-collapse: collapse;
+    margin-bottom: 20px;
 }
 
+/* cella larga della tabella */
 .cella-larga {
     width: 40%;
 }
+/* sfondo riga di intestazione tabella */
 .intestazione-azzurra {
     background-color: rgb(10%, 67%, 90%);
     color: white;
 }
+/* sfondo riga tabella */
 .riga-azzurra {
     background-color: rgb(70%, 90%, 95%);
 }
 .riga-bianca {
     background-color: white;
+}
+/* fine sfondo riga tabella */
+
+/* interessi */
+.interessi {
+    color: grey;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* bottom-img */
+.bottom-img {
+    position: relative;
+}
+
+/* posizione testo finale*/
+.top-left-interest {
+    position:absolute;
+    top: 8px;
+    left: 8px;
+    color: white;
+    font-size: 1.5em;
 }

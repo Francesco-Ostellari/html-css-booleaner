@@ -13,6 +13,11 @@
     margin: auto;
     background-color: white;
 }
+h1 {
+    background-color: orange;
+    border-radius: 10px;
+    text-align: center;
+}
 /* intestazione */
 header {
     height: 180px;
@@ -39,6 +44,7 @@ header {
     color: rgb(25%, 72%, 92%);
     font-weight: bold;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .data {
@@ -79,15 +85,15 @@ header {
 }
 /* sfondo riga di intestazione tabella */
 .intestazione-azzurra {
-    background-color: rgb(10%, 67%, 90%);
+    background-color: orange;
     color: white;
 }
 /* sfondo riga tabella */
 .riga-azzurra {
-    background-color: rgb(70%, 90%, 95%);
+    background-color:rgb(255, 186, 57);
 }
 .riga-bianca {
-    background-color: white;
+    background-color: rgb(180, 117, 0);
 }
 /* fine sfondo riga tabella */
 

@@ -12,10 +12,41 @@ header {
     background-color: rgb(77, 160, 254);
     background-image:url('../img/pattern.png');
     position: relative;
+    margin-bottom: 20px;
 }
 
 .logo {
    height: 90px; 
    position: absolute;
    transform: translate(3%,80%);
+}
+
+.autore-grigio {  
+    color: grey;
+    font-size: 20px;
+}
+
+.autore-blu {
+    color: rgb(25%, 72%, 92%);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.data {
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.second-img {
+    margin-bottom: 20px;
+}
+
+.text-highlighted {
+    background-color: yellow;
+}
+
+.elenco {
+    margin-top: 20px;
+    margin-left: 20px;
 }

@@ -50,3 +50,24 @@ header {
     margin-top: 20px;
     margin-left: 20px;
 }
+
+.tabella {
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.cella-larga {
+    width: 40%;
+}
+.intestazione-azzurra {
+    background-color: rgb(10%, 67%, 90%);
+    color: white;
+}
+.riga-azzurra {
+    background-color: rgb(70%, 90%, 95%);
+}
+.riga-bianca {
+    background-color: white;
+}
